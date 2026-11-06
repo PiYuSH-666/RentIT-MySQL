@@ -1,0 +1,12 @@
+
+# Eclipse-generated files
+bin/
+.settings/
+
+# RentIT runtime data and file locks
+*.lock
+bookings_*.txt
+customers.txt
+credits.txt
+vehicle_availability.txt
+db.properties

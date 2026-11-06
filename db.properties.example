@@ -1,0 +1,12 @@
+# Copy this file to the project root and rename the copy to: db.properties
+# Keep db.properties private. Never upload it with your real password.
+
+# Local MySQL database URL (the default database name is rentit_db)
+db.url=jdbc:mysql://localhost:3306/rentit_db?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+
+# Change this to the MySQL account used on the computer running RentIT.
+db.user=root
+
+# Replace with that MySQL account's password.
+# If the account has no password, leave the value empty after the equals sign.
+db.password=YOUR_MYSQL_PASSWORD
